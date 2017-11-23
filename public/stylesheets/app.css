@@ -1,0 +1,27 @@
+header {
+    background-color: deeppink;
+    color: #E8FDFF;
+}
+body {
+    background-color: whitesmoke;
+}
+main {
+    background-color:white;
+    padding: 16px;
+}
+.post {
+    margin-bottom: 48px;
+}
+.post .user-info img {
+    border-radius: 38%;
+}
+main {
+    font-family: cursive;
+}
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+div {
+    color: red
+}
