@@ -1,18 +1,12 @@
 def humanized_time_ago(time_ago_in_minutes)
-    if time_ago_in_minutes = 60
-            "#{time_ago_in_minutes} hour ago"
-        else 
-	    time_ago_in_minutes > 61
-       	"#{time_ago_in_minutes / 60} hours ago"
-        end
-    if  time_ago_in_minutes = 1
-        "#{time_ago_in_minutes} minute ago"
-        else
-        time_ago_in_minutes < 59
-        "#{time_ago_in_minutes} minutes ago"
-
+    if time_ago_in_minutes == 60
+       "1 hour ago"
+         elsif
+		 time_ago_in_minutes > 60
+         "#{time_ago_in_minutes / 60} hours ago"
     end
 end
+
 
 get "/" do
     @post_shark = {
