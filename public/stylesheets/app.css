@@ -1,9 +1,8 @@
 header {
-    background-color: deeppink;
-    color: #E8FDFF;
+    background-color: tomato;
 }
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 main {
     background-color:white;
@@ -16,12 +15,12 @@ main {
     border-radius: 38%;
 }
 main {
-    font-family: cursive;
+    font-family: Raleway;
 }
 h2 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 div {
-    color: red
+    color: #40415e
 }
