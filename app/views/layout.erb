@@ -15,7 +15,7 @@
             <div class="login-info">
                 <% if current_user %>
                     <%= current_user.username %>
-                    <a href="/logout">Logout</a>
+            <h2><a href="/logout">Logout</a></h2>
                 <% else %>
                     <a href="/login">Login</a>
                     <a href="/signup">Signup</a>
@@ -24,6 +24,8 @@
         </header>
         <main role="main">
             <%= yield %>
-        </main
+        </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="/javascripts/app.js"></script>
     </body>
 </html>
